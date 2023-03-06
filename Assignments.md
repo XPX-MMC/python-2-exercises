@@ -226,6 +226,8 @@ Output:
 9
 ```
 
+Create the `WordCounter` class in your student directory and don't forget to import it in your `assignments.py` file.
+
 # Ex. 8 Calculator
 Create a `Calculator` class that supports the following:
 
@@ -254,6 +256,8 @@ Output:
 6
 4.0
 ```
+Create the `Calculator` class in your student directory and don't forget to import it in your `assignments.py` file.
+
 
 # Ex. 9  Inheritance
 
