@@ -246,6 +246,14 @@ Output:
     print(calculator4.get_result())
 ```
 
+Output:
+```
+7
+1
+6
+4.0
+```
+
 
 # Ex. 9  Inheritance
 
