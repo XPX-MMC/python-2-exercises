@@ -158,7 +158,7 @@ class CarCollector:
     @staticmethod
     def _combine(c):
         # Todo...
-        return <<an object>>
+        return <<object>>
 ```
 
 Complete the `_combine()` method so that the `get_data()` method returns the following:

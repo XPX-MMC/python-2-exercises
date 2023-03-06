@@ -1,3 +1,6 @@
+from pprint import pprint
+
+
 def ex1():
     print("Todo...")
 
