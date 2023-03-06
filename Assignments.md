@@ -1,8 +1,6 @@
 # Python Intro II Assignments
 Submit a PR for each exercise.
 
-Assignments are located [here](./Assignments.md).
-
 # Ex. 1 Sort with Lambda
 Given the following list:
 
@@ -138,7 +136,48 @@ Output:
 ['alice', 'charlie']
 ```
 
-# Ex. 5 
+# Ex. 5 Car Collector
+Consider the following class:
+```python
+class CarCollector:
+    car_list = [
+        {"id": 1, "price": 10000},
+        {"id": 2, "price": 20000},
+        {"id": 3, "price": 30000},
+    ]
+    car_dict = {
+        1: "Ford",
+        2: "Mazda",
+        3: "Chevy"
+    }
+
+    @staticmethod
+    def get_data():
+        retval = list(map(CarCollector._combine, CarCollector.car_list))
+        return retval
+
+    @staticmethod
+    def _combine(c):
+        # Todo...
+        return pass
+```
+
+Complete the `_combine()` method so that the `get_data()` method returns the following:
+```
+[{'id': 1, 'make': 'Ford', 'price': 10000},
+ {'id': 2, 'make': 'Mazda', 'price': 20000},
+ {'id': 3, 'make': 'Chevy', 'price': 30000}]
+```
+
+Usage:
+```python
+  pprint(CarCollector.get_data())
+```
+Add this class to your student directory.  Make sure to import it at the top of your assignments.py file:
+
+```python
+from students.stu<your student id>.CarCollector import CarCollector
+```
 
 
 # Ex. 6 

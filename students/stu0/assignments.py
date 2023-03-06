@@ -1,3 +1,5 @@
+from students.stu0.CarCollector import CarCollector
+from pprint import pprint
 
 def ex1():
     people_list = [
@@ -6,7 +8,7 @@ def ex1():
         {'name': 'charlie', 'age': 15, 'weight': 120, 'sex': 'female', 'id': 3},
     ]
     sort_people(people_list, 'weight', 'desc')
-    print(people_list)
+    pprint(people_list)
 
 
 def ex2():
@@ -16,7 +18,7 @@ def ex2():
         {'name': 'charlie', 'age': 15, 'weight': 120, 'sex': 'female', 'id': 3},
     ]
     filtered_list = filter_people(people_list)
-    print(filtered_list)
+    pprint(filtered_list)
 
 
 def ex3():
@@ -25,7 +27,7 @@ def ex3():
         {'id': 3, 'name': 'charlie', 'weight_kg': 80, 'height_meters': 1.8},
     ]
     new_people_list = calc_bmi(people_list)
-    print(new_people_list)
+    pprint(new_people_list)
 
 
 def ex4():
@@ -34,11 +36,12 @@ def ex4():
         {'name': 'bob', 'age': 10, 'weight': 130, 'sex': 'male', 'id': 2},
         {'name': 'charlie', 'age': 15, 'weight': 120, 'sex': 'female', 'id': 3},
     ]
-    print(get_people(people_list))
+    pprint(get_people(people_list))
 
 
 def ex5():
-    pass
+    pprint(CarCollector.get_data())
+
 
 
 def ex6():
@@ -88,3 +91,20 @@ def calc_bmi(people):
 
 def get_people(people):
     return [p['name'] for p in people if p['age'] >= 15]
+
+def combine(car_list, car_dict):
+    # print(car_list)
+    # print(car_dict)
+
+    mm = list(map(transform, car_list))
+    print(mm)
+    return car_list
+
+
+def transform(m):
+    retval = {
+        "id": 1,
+        "make": 'toybota',
+        "price": 1.00
+    }
+    return retval
