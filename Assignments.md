@@ -208,10 +208,23 @@ Output:
 Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
 
 # Ex. 7  Word Counter
+Create a class called `WordCounter`.  This class is to be consumed in the following manner:
 
+```python
+    sentence = "This is a test of the emergency broadcast system"
+    word_counter = WordCounter(sentence)
+    word_counter.count_words()
+    print(word_counter.get_word_count())    # Returns the number of all the words.
+    print(word_counter.get_shortest_word()) # Returns the length of the shortest word.
+    print(word_counter.get_longest_word())  # Returns the length of the longest word.
+```
 
-
-
+Output:
+```
+9
+1
+9
+```
 
 # Ex. 8  Calculator
 
