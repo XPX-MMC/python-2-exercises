@@ -275,7 +275,7 @@ class Character:
 ```
 This base class represents a medieval character (not a character on your computer keyboard).  Create `Fighter` and `Drawf` 
 classes that subclass the `Character` class.  Implement the `__repr__()` method in the `Fighter` and `Drawf` classes.  Add some 
-logic in the `Character` base class to make sure the hitpoints do not fall below zero when the fight() method has finished 
+logic in the `Character` base class to make sure the hitpoints do not fall below zero when the `fight()` method has finished 
 executing.
 
 The `Fighter` and `Drawf` class must support this usage:
@@ -297,7 +297,7 @@ Drawf: 15 hit points.
 Fighter: 5 hit points.
 Drawf: 0 hit points.
 ```
-Create all classes in your student directory and don't forget to import them in your `assignments.py` file.
+Be sure to place all classes in your student directory and don't forget to import them in your `assignments.py` file.
 
 
 # Ex. 10 Data Class

@@ -1,11 +1,12 @@
+from pprint import pprint
+from students.stu0.Dwarf import Dwarf
 from students.stu0.TaxMan import TaxMan
+from students.stu0.Fighter import Fighter
+from students.stu0.Invoice import Invoice
 from students.stu0.Calculator import Calculator
 from students.stu0.WordCounter import WordCounter
 from students.stu0.CarCollector import CarCollector
-from students.stu0.Dwarf import Dwarf
-from students.stu0.Fighter import Fighter
-from students.stu0.Character import Character
-from pprint import pprint
+
 
 def ex1():
     people_list = [
@@ -98,9 +99,9 @@ def ex9():
     print(d)
 
 
-
 def ex10():
-    pass
+    invoice_1 = Invoice(1, 2, 10.00, False)
+    print(invoice_1)
 
 
 #
@@ -130,6 +131,7 @@ def calc_bmi(people):
 
 def get_people(people):
     return [p['name'] for p in people if p['age'] >= 15]
+
 
 def combine(car_list, car_dict):
     # print(car_list)
