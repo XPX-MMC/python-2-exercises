@@ -173,7 +173,7 @@ Usage:
 ```python
   pprint(CarCollector.get_data())
 ```
-Add this class to your student directory.  Make sure to import it at the top of your assignments.py file:
+Add this class to your student directory.  Make sure to import it at the top of your `assignments.py` file:
 
 ```python
 from students.stu<your student id>.CarCollector import CarCollector
