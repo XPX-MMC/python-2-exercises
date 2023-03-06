@@ -1,4 +1,5 @@
 from students.stu0.TaxMan import TaxMan
+from students.stu0.Calculator import Calculator
 from students.stu0.WordCounter import WordCounter
 from students.stu0.CarCollector import CarCollector
 from pprint import pprint
@@ -66,7 +67,21 @@ def ex7():
 
 
 def ex8():
-    pass
+    calculator1 = Calculator(4, 3)
+    calculator1.add()
+    print(calculator1.get_result())
+
+    calculator2 = Calculator(4, 3)
+    calculator2.sub()
+    print(calculator2.get_result())
+
+    calculator3 = Calculator(2, 3)
+    calculator3.mul()
+    print(calculator3.get_result())
+
+    calculator4 = Calculator(8, 2)
+    calculator4.div()
+    print(calculator4.get_result())
 
 
 def ex9():
