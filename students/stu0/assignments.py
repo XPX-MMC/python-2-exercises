@@ -1,5 +1,6 @@
-from students.stu0.CarCollector import CarCollector
 from students.stu0.TaxMan import TaxMan
+from students.stu0.WordCounter import WordCounter
+from students.stu0.CarCollector import CarCollector
 from pprint import pprint
 
 def ex1():
@@ -55,10 +56,13 @@ def ex6():
     print(tm.get_total())
 
 
-
-
 def ex7():
-    pass
+    sentence = "This is a test of the emergency broadcast system"
+    wc = WordCounter(sentence)
+    wc.count_words()
+    print(wc.get_word_count())
+    print(wc.get_shortest_word())
+    print(wc.get_longest_word())
 
 
 def ex8():

@@ -172,7 +172,7 @@ Usage:
 ```python
   pprint(CarCollector.get_data())
 ```
-Add this class to your student directory.  Make sure to import it at the top of your `assignments.py` file:
+Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
 
 ```python
 from students.stu<your student id>.CarCollector import CarCollector
@@ -205,16 +205,20 @@ Output:
 6.6
 ```
 
-# Ex. 7 
+Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
+
+# Ex. 7  Word Counter
 
 
 
-# Ex. 8 
 
 
-# Ex. 9 
+# Ex. 8  Calculator
 
 
-# Ex. 10
+# Ex. 9  Inheritance
+
+
+# Ex. 10 Data Class
 
 
