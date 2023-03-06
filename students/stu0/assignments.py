@@ -36,6 +36,31 @@ def ex4():
     ]
     print(get_people(people_list))
 
+
+def ex5():
+    pass
+
+
+def ex6():
+    pass
+
+
+def ex7():
+    pass
+
+
+def ex8():
+    pass
+
+
+def ex9():
+    pass
+
+
+def ex10():
+    pass
+
+
 #
 # Place your functions here...
 #
@@ -47,3 +72,19 @@ def sort_people(people, field, direction):
 
 def filter_people(people):
     return list(filter(lambda p: p['sex'] == 'male', people))
+
+
+def calc_bmi(people):
+    return list(map(lambda p:
+                    {
+                        'id': p['id'],
+                        'name': p['name'],
+                        'weight_kg': p['weight_kg'],
+                        'height_meters': p['height_meters'],
+                        'bmi': round(p['weight_kg'] / p['height_meters'] ** 2, 1)
+                    },
+                    people))
+
+
+def get_people(people):
+    return [p['name'] for p in people if p['age'] >= 15]
