@@ -11,7 +11,6 @@ class WordCounter:
         self._word_count = len(word_list)
         self._shortest_word_len = len(min(word_list, key=len))
         self._longest_word_len = len(max(word_list, key=len))
-        pass
 
     def get_longest_word(self):
         return self._longest_word_len

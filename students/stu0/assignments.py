@@ -58,11 +58,11 @@ def ex6():
 
 def ex7():
     sentence = "This is a test of the emergency broadcast system"
-    wc = WordCounter(sentence)
-    wc.count_words()
-    print(wc.get_word_count())
-    print(wc.get_shortest_word())
-    print(wc.get_longest_word())
+    word_counter = WordCounter(sentence)
+    word_counter.count_words()
+    print(word_counter.get_word_count())
+    print(word_counter.get_shortest_word())
+    print(word_counter.get_longest_word())
 
 
 def ex8():
