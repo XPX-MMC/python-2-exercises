@@ -3,7 +3,7 @@ Assignments are located [here](Assignments.md).
 
 # Getting Started
 - Clone this repo
-- Open python-1 directory with IntelliJ
+- Open python-2 directory with IntelliJ
 - Create Python configuration in IntelliJ (select `main.py`)
 - Update [main.py](main.py) with your student ID
 
