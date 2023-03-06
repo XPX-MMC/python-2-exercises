@@ -274,7 +274,7 @@ class Character:
         character.hit_points -= random_number
 ```
 This base class represents a medieval character (not a character on your computer keyboard).  Create `Fighter` and `Drawf` 
-classes that subclass the `Character` class.  Implement the `__repr__` method in the `Fighter` and `Drawf` classes.  Add some 
+classes that subclass the `Character` class.  Implement the `__repr__()` method in the `Fighter` and `Drawf` classes.  Add some 
 logic in the `Character` base class to make sure the hitpoints do not fall below zero when the fight() method has finished 
 executing.
 
