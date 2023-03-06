@@ -275,8 +275,8 @@ class Character:
 ```
 This base class represents a medieval character (not a character on your computer keyboard).  Create `Fighter` and `Drawf` 
 classes that subclass the `Character` class.  Implement the `__repr__()` method in the `Fighter` and `Drawf` classes.  Add some 
-logic in the `Character` base class to make sure the hitpoints do not fall below zero when the `fight()` method has finished 
-executing.
+logic in the `Character` base class `fight()` method to make sure the hit points do not fall below zero when the `fight()` method 
+has finished executing.
 
 The `Fighter` and `Drawf` class must support this usage:
 ```python
@@ -301,5 +301,25 @@ Be sure to place all classes in your student directory and don't forget to impor
 
 
 # Ex. 10 Data Class
+Given the following data:
+```python
+    data = [
+        "1, 2322, 10.00, False",
+        "2, 5435, 60.30, True",
+        "3, 3433, 15.63, False",
+        "4, 8439, 12.77, False",
+        "5, 3424, 11.34, False",
+    ]
+```
 
+Convert this data that contains a list of `Invoice` data classes, such that when this list is pprinted to the console, 
+it appears as the following:
+```
+[Invoice(invoice_id='1', user_id='2322', amount='10.00', paid='False'),
+Invoice(invoice_id='2', user_id='5435', amount='60.30', paid='True'),
+Invoice(invoice_id='3', user_id='3433', amount='15.63', paid='False'),
+Invoice(invoice_id='4', user_id='8439', amount='12.77', paid='False'),
+Invoice(invoice_id='5', user_id='3424', amount='11.34', paid='False')]
+```
 
+Be sure to place the `Invoice` data class in your student directory and don't forget to import them in your `assignments.py` file.

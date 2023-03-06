@@ -100,13 +100,25 @@ def ex9():
 
 
 def ex10():
-    invoice_1 = Invoice(1, 2, 10.00, False)
-    print(invoice_1)
+    data = [
+        "1, 2322, 10.00, False",
+        "2, 5435, 60.30, True",
+        "3, 3433, 15.63, False",
+        "4, 8439, 12.77, False",
+        "5, 3424, 11.34, False",
+    ]
+    invoice_list = list(map(transform_invoice, data))
+    pprint(invoice_list)
 
 
 #
 # Place your functions here...
 #
+
+def transform_invoice(i):
+    array = i.split(",")
+    i = Invoice(array[0], array[1].strip(), array[2].strip(), array[3].strip())
+    return i
 
 
 def sort_people(people, field, direction):
@@ -131,21 +143,3 @@ def calc_bmi(people):
 
 def get_people(people):
     return [p['name'] for p in people if p['age'] >= 15]
-
-
-def combine(car_list, car_dict):
-    # print(car_list)
-    # print(car_dict)
-
-    mm = list(map(transform, car_list))
-    print(mm)
-    return car_list
-
-
-def transform(m):
-    retval = {
-        "id": 1,
-        "make": 'toybota',
-        "price": 1.00
-    }
-    return retval
