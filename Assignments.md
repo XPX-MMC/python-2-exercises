@@ -307,8 +307,8 @@ Given the following data:
     ]
 ```
 
-Convert this data that contains a list of `Invoice` data classes, such that when this list is pprinted to the console, 
-it appears as the following:
+Convert this data (a list of strings) to a list of `Invoice` data classes, such that when this list is pprinted to the console, 
+it appears like the following:
 ```
 [Invoice(invoice_id='1', user_id='2322', amount='10.00', paid='False'),
 Invoice(invoice_id='2', user_id='5435', amount='60.30', paid='True'),
