@@ -2,6 +2,9 @@ from students.stu0.TaxMan import TaxMan
 from students.stu0.Calculator import Calculator
 from students.stu0.WordCounter import WordCounter
 from students.stu0.CarCollector import CarCollector
+from students.stu0.Dwarf import Dwarf
+from students.stu0.Fighter import Fighter
+from students.stu0.Character import Character
 from pprint import pprint
 
 def ex1():
@@ -85,7 +88,15 @@ def ex8():
 
 
 def ex9():
-    pass
+    f = Fighter(18)
+    d = Dwarf(15)
+    print(f)
+    print(d)
+    f.fight(d)
+    d.fight(f)
+    print(f)
+    print(d)
+
 
 
 def ex10():

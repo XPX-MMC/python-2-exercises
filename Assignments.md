@@ -73,7 +73,7 @@ Output:
 {'name': 'bob', 'age': 10, 'weight': 130, 'sex': 'male', 'id': 2}]
 ```
 
-# Ex. 3 Map
+# Ex. 3 Map BMI
 Given the following list:
 
 ```python

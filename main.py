@@ -4,7 +4,7 @@ from students.stu0.assignments import *
 
 
 def main():
-    ex8()
+    ex9()
 
 
 if __name__ == '__main__':
