@@ -258,9 +258,46 @@ Output:
 ```
 Create the `Calculator` class in your student directory and don't forget to import it in your `assignments.py` file.
 
-
 # Ex. 9  Inheritance
+Consider the following base class:
+```python
+import random
 
+
+class Character:
+
+    def __init__(self, hit_points):
+        self.hit_points = hit_points
+
+    def fight(self, character):
+        random_number = random.randint(1, 20)
+        character.hit_points -= random_number
+```
+This base class represents a medieval character (not a character on your computer keyboard).  Create `Fighter` and `Drawf` 
+classes that subclass the `Character` class.  Implement the `__repr__` method in the `Fighter` and `Drawf` classes.  Add some 
+logic in the `Character` base class to make sure the hitpoints do not fall below zero when the fight() method has finished 
+executing.
+
+The `Fighter` and `Drawf` class must support this usage:
+```python
+    f = Fighter(18)
+    d = Dwarf(15)
+    print(f)
+    print(d)
+    f.fight(d)
+    d.fight(f)
+    print(f)
+    print(d)
+```
+
+Example output:
+```
+Fighter: 18 hit points.
+Drawf: 15 hit points.
+Fighter: 5 hit points.
+Drawf: 0 hit points.
+```
+Create all classes in your student directory and don't forget to import them in your `assignments.py` file.
 
 
 # Ex. 10 Data Class
