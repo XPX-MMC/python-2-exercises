@@ -207,7 +207,7 @@ Output:
 
 Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
 
-# Ex. 7  Word Counter
+# Ex. 7 Word Counter
 Create a class called `WordCounter`.  This class is to be consumed in the following manner:
 
 ```python
@@ -226,7 +226,8 @@ Output:
 9
 ```
 
-# Ex. 8  Calculator
+# Ex. 8 Calculator
+Create a `Calculator` class that supports the following:
 
 ```python
     calculator1 = Calculator(4, 3)
@@ -254,8 +255,8 @@ Output:
 4.0
 ```
 
-
 # Ex. 9  Inheritance
+
 
 
 # Ex. 10 Data Class
