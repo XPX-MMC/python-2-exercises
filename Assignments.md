@@ -253,13 +253,6 @@ Usage:
 ```
 Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
 
-```python
-from students.stu<your student id>.CarCollector import CarCollector
-```
-
-
-Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
-
 # Ex. 9  Inheritance
 Consider the following base class:
 ```python
