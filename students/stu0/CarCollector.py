@@ -12,8 +12,7 @@ class CarCollector:
 
     @staticmethod
     def get_data():
-        retval = list(map(CarCollector._combine, CarCollector.car_list))
-        return retval
+        return list(map(CarCollector._combine, CarCollector.car_list))
 
     @staticmethod
     def _combine(c):

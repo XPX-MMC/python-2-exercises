@@ -153,13 +153,12 @@ class CarCollector:
 
     @staticmethod
     def get_data():
-        retval = list(map(CarCollector._combine, CarCollector.car_list))
-        return retval
-
+        return list(map(CarCollector._combine, CarCollector.car_list))
+    
     @staticmethod
     def _combine(c):
         # Todo...
-        return pass
+        return <<an object>>
 ```
 
 Complete the `_combine()` method so that the `get_data()` method returns the following:
