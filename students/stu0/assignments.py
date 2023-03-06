@@ -47,7 +47,12 @@ def ex4():
 
 
 def ex5():
-    pprint(CarCollector.get_data())
+    sentence = "This is a test of the emergency broadcast system"
+    word_counter = WordCounter(sentence)
+    word_counter.count_words()
+    print(word_counter.get_word_count())
+    print(word_counter.get_shortest_word())
+    print(word_counter.get_longest_word())
 
 
 def ex6():
@@ -62,15 +67,6 @@ def ex6():
 
 
 def ex7():
-    sentence = "This is a test of the emergency broadcast system"
-    word_counter = WordCounter(sentence)
-    word_counter.count_words()
-    print(word_counter.get_word_count())
-    print(word_counter.get_shortest_word())
-    print(word_counter.get_longest_word())
-
-
-def ex8():
     calculator1 = Calculator(4, 3)
     calculator1.add()
     print(calculator1.get_result())
@@ -86,6 +82,10 @@ def ex8():
     calculator4 = Calculator(8, 2)
     calculator4.div()
     print(calculator4.get_result())
+
+
+def ex8():
+    pprint(CarCollector.get_data())
 
 
 def ex9():

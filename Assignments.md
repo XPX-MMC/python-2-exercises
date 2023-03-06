@@ -136,7 +136,86 @@ Output:
 ['alice', 'charlie']
 ```
 
-# Ex. 5 Car Collector
+
+# Ex. 5 Word Counter
+Create a class called `WordCounter`.  This class is to be consumed in the following manner:
+
+```python
+    sentence = "This is a test of the emergency broadcast system"
+    word_counter = WordCounter(sentence)
+    word_counter.count_words()
+    print(word_counter.get_word_count())    # Returns the number of all the words.
+    print(word_counter.get_shortest_word()) # Returns the length of the shortest word.
+    print(word_counter.get_longest_word())  # Returns the length of the longest word.
+```
+
+Output:
+```
+9
+1
+9
+```
+
+Create the `WordCounter` class in your student directory and don't forget to import it in your `assignments.py` file.
+
+# Ex. 6 Tax Man
+Consider the following code:
+```
+    items = [
+        {"id": 1, "desc": "clock", "price": 1.00},
+        {"id": 2, "desc": "socks", "price": 2.00},
+        {"id": 3, "desc": "razor", "price": 3.00},
+    ]
+    tm = TaxMan(items, "10%")
+    tm.calc_total()
+    print(tm.get_total())
+```
+
+Create a Python class called `TaxMan` that accepts two arguments:
+  - A list of items (above)
+  - The percent sales tax (string)
+
+The `TaxMan` class has two methods:
+  - `calc_total()`: Sums the price of all the items and applies the sales tax (saved to a private instance variable)
+  - `get_total()`: Returns the total price including the sales tax.
+
+Output:
+```
+6.6
+```
+
+# Ex. 7 Calculator
+Create a `Calculator` class that supports the following:
+
+```python
+    calculator1 = Calculator(4, 3)
+    calculator1.add()
+    print(calculator1.get_result())
+
+    calculator2 = Calculator(4, 3)
+    calculator2.sub()
+    print(calculator2.get_result())
+
+    calculator3 = Calculator(2, 3)
+    calculator3.mul()
+    print(calculator3.get_result())
+
+    calculator4 = Calculator(8, 2)
+    calculator4.div()
+    print(calculator4.get_result())
+```
+
+Output:
+```
+7
+1
+6
+4.0
+```
+Create the `Calculator` class in your student directory and don't forget to import it in your `assignments.py` file.
+
+
+# Ex. 8 Car Collector
 Consider the following class:
 ```python
 class CarCollector:
@@ -179,84 +258,7 @@ from students.stu<your student id>.CarCollector import CarCollector
 ```
 
 
-# Ex. 6 Tax Man
-Consider the following code:
-```
-    items = [
-        {"id": 1, "desc": "clock", "price": 1.00},
-        {"id": 2, "desc": "socks", "price": 2.00},
-        {"id": 3, "desc": "razor", "price": 3.00},
-    ]
-    tm = TaxMan(items, "10%")
-    tm.calc_total()
-    print(tm.get_total())
-```
-
-Create a Python class called `TaxMan` that accepts two arguments:
-  - A list of items (above)
-  - The percent sales tax (string)
-
-The `TaxMan` class has two methods:
-  - `calc_total()`: Sums the price of all the items and applies the sales tax (saved to a private instance variable)
-  - `get_total()`: Returns the total price including the sales tax.
-
-Output:
-```
-6.6
-```
-
 Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
-
-# Ex. 7 Word Counter
-Create a class called `WordCounter`.  This class is to be consumed in the following manner:
-
-```python
-    sentence = "This is a test of the emergency broadcast system"
-    word_counter = WordCounter(sentence)
-    word_counter.count_words()
-    print(word_counter.get_word_count())    # Returns the number of all the words.
-    print(word_counter.get_shortest_word()) # Returns the length of the shortest word.
-    print(word_counter.get_longest_word())  # Returns the length of the longest word.
-```
-
-Output:
-```
-9
-1
-9
-```
-
-Create the `WordCounter` class in your student directory and don't forget to import it in your `assignments.py` file.
-
-# Ex. 8 Calculator
-Create a `Calculator` class that supports the following:
-
-```python
-    calculator1 = Calculator(4, 3)
-    calculator1.add()
-    print(calculator1.get_result())
-
-    calculator2 = Calculator(4, 3)
-    calculator2.sub()
-    print(calculator2.get_result())
-
-    calculator3 = Calculator(2, 3)
-    calculator3.mul()
-    print(calculator3.get_result())
-
-    calculator4 = Calculator(8, 2)
-    calculator4.div()
-    print(calculator4.get_result())
-```
-
-Output:
-```
-7
-1
-6
-4.0
-```
-Create the `Calculator` class in your student directory and don't forget to import it in your `assignments.py` file.
 
 # Ex. 9  Inheritance
 Consider the following base class:
