@@ -21,3 +21,5 @@ __pycache__/
 .idea/**/gradle.xml
 .idea/**/libraries
 
+**/*.pyc
+students/stu*/__pycache__/
