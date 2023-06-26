@@ -1,5 +1,5 @@
 # Python Intro II Assignments
-Submit a PR for each exercise.
+Push up your work after each exercise.
 
 # Ex. 1 Sort with Lambda
 Given the following list:
@@ -14,7 +14,7 @@ people_list = [
 
 Create a function called `sort_people()` that accepts the following arguments:
 - A list of people
-- A field that will used to sort the people (e.g. name, age, weight, etc...)
+- A field that will be used to sort the people (e.g. name, age, weight, etc...)
 - The sort direction (e.g. asc or desc)
 
 This function must use a Lambda function to perform the sort.
@@ -156,7 +156,7 @@ Output:
 9
 ```
 
-Create the `WordCounter` class in your student directory and don't forget to import it in your `assignments.py` file.
+Create the `WordCounter` class in your src directory and import it in your `solutions.py` file. You will use it here to test Word Counter
 
 # Ex. 6 Tax Man
 Consider the following code:
@@ -212,7 +212,7 @@ Output:
 6
 4.0
 ```
-Create the `Calculator` class in your student directory and don't forget to import it in your `assignments.py` file.
+Create the `Calculator` class in your src directory and don't forget to import it in your `solutions.py` file.
 
 
 # Ex. 8 Car Collector
@@ -251,7 +251,7 @@ Usage:
 ```python
   pprint(CarCollector.get_data())
 ```
-Create the `CarCollector` class in your student directory and don't forget to import it in your `assignments.py` file.
+Create the `CarCollector` class in your src directory and don't forget to import it in your `solutions.py` file.
 
 # Ex. 9  Inheritance
 Consider the following base class:
@@ -292,7 +292,7 @@ Drawf: 15 hit points.
 Fighter: 5 hit points.
 Drawf: 0 hit points.
 ```
-Be sure to place all classes in your student directory and don't forget to import them in your `assignments.py` file.
+Be sure to place all classes in your src directory and don't forget to import them in your `solutions.py` file.
 
 
 # Ex. 10 Data Class
@@ -307,7 +307,7 @@ Given the following data:
     ]
 ```
 
-Convert this data (a list of strings) to a list of `Invoice` data classes, such that when this list is pprinted to the console, 
+Convert this data (a list of strings) to a list of `Invoice` data classes, such that when this list is printed to the console, 
 it appears like the following:
 ```
 [Invoice(invoice_id='1', user_id='2322', amount='10.00', paid='False'),
@@ -317,4 +317,4 @@ Invoice(invoice_id='4', user_id='8439', amount='12.77', paid='False'),
 Invoice(invoice_id='5', user_id='3424', amount='11.34', paid='False')]
 ```
 
-Be sure to place the `Invoice` data class in your student directory and don't forget to import them in your `assignments.py` file.
+Be sure to place the `Invoice` data class in your src directory and don't forget to import them in your `solutions.py` file.

@@ -1,10 +1,10 @@
 
-# Update with your student id.
-from students.stu0.assignments import *
+# Update with the exercise you are trying to test
+from src import test
 
 
 def main():
-    ex1()
+    test.hello()
 
 
 if __name__ == '__main__':

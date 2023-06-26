@@ -7,7 +7,13 @@ Assignments are located [here](Assignments.md).
 - Open the Python directory from IntelliJ
 - Create virtual environment: `python -m venv venv`
 - Activate virtual environment: `venv\Scripts\activate.bat`
-- Install dependencies: `pip install -r requirements.txt`
+
+Run `main.py`. You should see the following output.
+
+    Hello exercises for Python II!
+If you do not see this in the output, check your interpreter settings and virtual environment.
+
+If using IntelliJ:
 - Check project settings for Python Interpreter settings:
     - File >> Project Structure >> Project
     - File >> Project Structure >> Modules
