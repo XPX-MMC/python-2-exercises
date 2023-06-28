@@ -8,10 +8,12 @@ Assignments are located [here](Assignments.md).
 - Create virtual environment: `python -m venv venv`
 - Activate virtual environment: `venv\Scripts\activate.bat`
 
-Run `main.py`. You should see the following output.
+1. Run `main.py`. You should see the following output.
 
     Hello exercises for Python II!
-If you do not see this in the output, check your interpreter settings and virtual environment.
+- If you do not see this in the output, check your interpreter settings and virtual environment.
+
+2. Check `Assignments.md` and create solutions for each in the `src` folder. You can keep them all in one file, or separate.
 
 If using IntelliJ:
 - Check project settings for Python Interpreter settings:
