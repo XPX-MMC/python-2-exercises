@@ -4,6 +4,7 @@ Push up your work after each exercise.
 # Ex. 1 Sort with Lambda
 Given the following list:
 
+
 ```python
 people_list = [
     {'name': 'alice',   'age': 20, 'weight': 160, 'sex': 'male',   'id': 1},
