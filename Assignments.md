@@ -85,7 +85,7 @@ people_list = [
 ```
 
 Create a function called `calc_bmi()` that accepts this list and calculates the BMI (Body Mass Index) for
-each person.  The formula for BMI is:  BMI = weight/height<sup>2</sup>.  This can be expressed in python
+each person.  The formula for BMI is:  BMI = weight/height<spu>2</sup>.  This can be expressed in python
 using this syntax: `round(weight / height ** 2, 1)`.
 
 The `calc_bmi()` function must use the `map()` function.
