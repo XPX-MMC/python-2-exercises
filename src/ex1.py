@@ -1,5 +1,6 @@
-def sort_people(people, weight, direction):
-    pass
+
+def sort_people(people_list, field, direction):
+    people_list.sort(key=lambda p: p[field], reverse= (direction == 'desc'))
 
 
 

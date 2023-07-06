@@ -1,6 +1,5 @@
 # import random
 
-
 class Character:
     def __init__(self, health, attack_power):
         self.health = health
@@ -15,19 +14,15 @@ class Character:
             character.health = 0
 
     def __repr__(self):
-        return f"{self.__class__.__name__}: {self.health} health left."
-
-class Knight(Character):
-        pass
-
+        return f"{self.__class__.__name__}: {self.health} health left. \n Does {self.attack_power} damage!"
 
 class Fighter(Character):
     pass
-    # def __repr__(self):
-    #     return f"Fighter: {self.health} hit points."
+    def __repr__(self):
+        return f"Special class: Fighter! \n {self.health} health left. \n Does {self.attack_power} damage!"
 
 
 class Dwarf(Character):
     pass
-    # def __repr__(self):
-    #     return f"Dwarf: {self.health} hit points."
+    def __repr__(self):
+        return f"Special class: Dwarf! \n {self.health} health left. \n Does {self.attack_power} damage!"

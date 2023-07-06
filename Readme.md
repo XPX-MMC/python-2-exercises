@@ -1,29 +1,12 @@
 # Python II Assignments
 Assignments are located [here](Assignments.md).
 
-# Getting Started
-- Clone this repo
-- Launch IntelliJ
-- Open the Python directory from IntelliJ
-- Create virtual environment: `python -m venv venv`
-- Activate virtual environment: `venv\Scripts\activate.bat`
+# Solutions
 
-1. Run `main.py`. You should see the following output.
+This branch contains solutions for each exercise! In the `src` directory, you will find that each exercise has its own file.
 
-    Hello exercises for Python II!
-- If you do not see this in the output, check your interpreter settings and virtual environment.
+- ***Each exercise file will contain the function and/or you were asked to build along with a test case.***
 
-2. Check `Assignments.md` and create solutions for each in the `src` folder. You can keep them all in one file, or separate.
+***NOTE:*** I went beyond what was asked for exercise 9 and created a health (HP) and hit points (damage) system so each game character can do varying damages. The underlying concepts remain the same.
 
-If using IntelliJ:
-- Check project settings for Python Interpreter settings:
-    - File >> Project Structure >> Project
-    - File >> Project Structure >> Modules
-- Create configuration:
-    - Edit Configurations...
-    - Click plus, create name, select `main.py` file
-    - Use SDK Module
-
-# Notes
-- Built with IntelliJ 2022.2
-- Built using Python 3.10
+Hope this helps you understand Python better!

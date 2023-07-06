@@ -1,3 +1,5 @@
+from pprint import pprint
+
 class CarCollector:
     car_list = [
         {"id": 1, "price": 10000},
@@ -23,3 +25,12 @@ class CarCollector:
             'make': CarCollector.car_dict[car_id],
             'price': car['price']
         }
+    
+
+
+pprint(CarCollector.get_data())
+
+# Expected Output:
+# [{'id': 1, 'make': 'Ford', 'price': 10000},
+#  {'id': 2, 'make': 'Mazda', 'price': 20000},
+#  {'id': 3, 'make': 'Chevy', 'price': 30000}]
