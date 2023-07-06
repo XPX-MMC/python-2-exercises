@@ -1,10 +1,14 @@
 
 # Update with the exercise you are trying to test
-from src import test
+from src import test, ex1
 
 
 def main():
-    test.hello()
+    # test.hello()
+
+    ex1.test_case()
+    
+
 
 
 if __name__ == '__main__':
